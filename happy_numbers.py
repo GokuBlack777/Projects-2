@@ -28,3 +28,5 @@ def print_happy_number(number):
 			count += 1
 		number += 1
 	return happy_numbers
+
+print(print_happy_number(int(input())))
